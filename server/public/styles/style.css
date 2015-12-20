@@ -1,0 +1,137 @@
+/*css reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*styling for page*/
+
+body {
+    background-image: url("/views/footer_lodyas.png")
+}
+
+header {
+    font-family: 'Laila', sans-serif;
+    text-align: center;
+    font-size: 96px;
+    color: lightgrey;
+    margin: 10px 0 0 0;
+}
+
+.container {
+    width: 100%;
+    height: 450px;
+    display: block;
+    position: relative;
+    margin: 10px 0 0 0;
+    padding: 50px auto;
+    background-image: url("/views/binding_light.png");
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid black;
+}
+.peopleContainer {
+    display: block;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 25px auto 25px auto;
+    position: relative;
+    text-align: center;
+    color: white;
+    text-shadow: -4px -2px 2px black;
+    background-size: cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+}
+h2 {
+    display: block;
+    position: relative;
+    font-size: 34px;
+    margin: 10px auto;
+    font-weight: bold;
+}
+p {
+    display: block;
+    position: relative;
+    font-size: 36px;
+    margin: 0 auto 10px auto;
+}
+.person-location {
+    margin: 290px 0 0 0;
+    font-style: italic;
+    font-size: 20px;
+}
+.index-container {
+    display: block;
+}
+.indices {
+    display: block;
+    margin: 5px 28%;
+}
+.index {
+    height: 16px;
+    width: 16px;
+    display: inline;
+    margin: 5px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    font-size: 24px;
+    margin: 5px 37% 20px;
+}
+.previous, .next {
+    margin: 5px;
+    background-color: lightgrey;
+    width: 140px;
+}
+/*.highlight {*/
+    /*background-color: yellow;   this was used in texting index highlights*/
+/*}*/
+
+
+/*i wish i could have figured out how to center the index buttons and nav buttons without doing it manually in the margin*/
